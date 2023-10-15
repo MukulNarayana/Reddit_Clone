@@ -7,45 +7,29 @@
 - Subreddit specific feed
 - Create subreddits
 - Light and dark mode
-- ... and more to come!
-
-## Screenshots
-<p align="center">
-  <a href="#">
-    <img src="./screenshot.png" alt="Comments page for a post">
-  </a>
-</p>
-
 ## Installation
-1. Clone this repository
-
-```
-git clone https://github.com/tacticaltofu/reddit-clone.git
-cd reddit-clone
-```
-
-2. Install backend dependencies
+1. Install backend dependencies
 
 ```
 cd backend
 npm install
 ```
 
-3. Install frontend dependencies
+2. Install frontend dependencies
 
 ```
 cd frontend
 npm install
 ```
 
-4. Create config folder in the backend
+3. Create config folder in the backend
 
 ```
 cd backend
 mkdir config
 ```
 
-5. Configure environment variables. Create a `dev.env` file in the config folder, and paste the following (filling in your own postgres password and JWT secret)
+4. Configure environment variables. Create a `dev.env` file in the config folder, and paste the following (filling in your own postgres password and JWT secret)
 ```
 PORT=5000
 PG_HOST=localhost
@@ -57,9 +41,9 @@ JWT_SECRET=<YOUR_SECRET>
 
 ```
 
-6. Create a postgres database named 'reddit-clone'
+5. Create a postgres database named 'reddit-clone'
 
-7. Run the database migrations
+6. Run the database migrations
 
 ```
 cd backend
